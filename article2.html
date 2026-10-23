@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Why Roofing Contractors Lose Money Without Documentation — SiteSign Pro</title>
+<meta name="description" content="Poor documentation could be costing you $10,000 or more a year. Here's exactly where the money leaks out and how to stop it.">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --black: #0a0a0a;
+    --dark: #111111;
+    --card: #1a1a1a;
+    --border: #2a2a2a;
+    --orange: #f97316;
+    --white: #f5f5f5;
+    --grey: #888;
+    --light-grey: #ccc;
+    box-sizing: border-box;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  *, *::before, *::after { box-sizing: inherit; margin: 0; padding: 0; }
+  body {
+    font-family: 'Inter', sans-serif;
+    background: var(--black);
+    color: var(--white);
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; text-decoration: none; }
+
+  nav {
+    position: fixed;
+    top: env(safe-area-inset-top, 0px);
+    left: 0; right: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 32px;
+    background: rgba(10,10,10,0.92);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+  }
+  .logo { font-weight: 900; font-size: 1.1rem; letter-spacing: -0.5px; }
+  .logo span { color: var(--orange); }
+  nav a.cta-nav {
+    background: var(--orange);
+    color: #000;
+    font-weight: 700;
+    font-size: 0.85rem;
+    padding: 8px 20px;
+    border-radius: 6px;
+  }
+
+  .article-hero {
+    padding: 120px 24px 60px;
+    max-width: 740px;
+    margin: 0 auto;
+  }
+  .article-tag {
+    display: inline-block;
+    background: rgba(249,115,22,0.15);
+    border: 1px solid rgba(249,115,22,0.3);
+    color: var(--orange);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    padding: 5px 12px;
+    border-radius: 100px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .article-hero h1 {
+    font-size: clamp(1.8rem, 4vw, 2.8rem);
+    font-weight: 900;
+    letter-spacing: -1.5px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+  }
+  .article-meta {
+    font-size: 0.82rem;
+    color: var(--grey);
+  }
+  .article-meta span { color: var(--orange); }
+
+  .article-body {
+    max-width: 740px;
+    margin: 0 auto;
+    padding: 48px 24px 96px;
+  }
+  .article-body p {
+    font-size: 1.05rem;
+    color: var(--light-grey);
+    margin-bottom: 24px;
+    line-height: 1.8;
+  }
+  .article-body h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    color: var(--white);
+    margin: 48px 0 16px;
+    line-height: 1.2;
+  }
+  .article-body strong { color: var(--white); font-weight: 700; }
+  .divider {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 48px 0;
+  }
+  .article-body ul {
+    list-style: none;
+    margin-bottom: 24px;
+  }
+  .article-body ul li {
+    font-size: 1.05rem;
+    color: var(--light-grey);
+    padding: 8px 0 8px 24px;
+    position: relative;
+    line-height: 1.7;
+  }
+  .article-body ul li::before {
+    content: '→';
+    color: var(--orange);
+    position: absolute;
+    left: 0;
+    font-weight: 700;
+  }
+
+  .cost-box {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 28px 32px;
+    margin: 32px 0;
+  }
+  .cost-box p {
+    margin-bottom: 10px !important;
+    font-size: 0.95rem !important;
+  }
+  .cost-box p:last-child { margin-bottom: 0 !important; }
+  .cost-highlight {
+    font-size: 1.2rem !important;
+    font-weight: 800 !important;
+    color: var(--orange) !important;
+    margin-top: 16px !important;
+  }
+
+  .cta-box {
+    background: var(--card);
+    border: 1px solid var(--orange);
+    border-radius: 12px;
+    padding: 36px 32px;
+    margin: 48px 0;
+    text-align: center;
+  }
+  .cta-box h3 {
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+    letter-spacing: -0.5px;
+  }
+  .cta-box p {
+    color: var(--grey);
+    margin-bottom: 24px;
+    font-size: 0.95rem;
+  }
+  .btn-primary {
+    background: var(--orange);
+    color: #000;
+    font-weight: 700;
+    font-size: 0.95rem;
+    padding: 12px 28px;
+    border-radius: 8px;
+    display: inline-block;
+  }
+  .cta-box-note {
+    margin-top: 10px;
+    font-size: 0.78rem;
+    color: var(--grey);
+  }
+
+  .back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.85rem;
+    color: var(--grey);
+    margin-bottom: 32px;
+  }
+  .back-link:hover { color: var(--orange); }
+
+  footer {
+    background: var(--black);
+    border-top: 1px solid var(--border);
+    padding: 40px 24px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--grey);
+  }
+  .footer-logo { font-weight: 900; font-size: 1rem; margin-bottom: 8px; }
+  .footer-logo span { color: var(--orange); }
+
+  @media (max-width: 600px) {
+    nav { padding: 14px 20px; }
+    .article-hero { padding: 100px 20px 40px; }
+    .article-body { padding: 32px 20px 72px; }
+    .cta-box { padding: 28px 20px; }
+    .cost-box { padding: 24px 20px; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="/index.html" class="logo">Site<span>Sign</span> Pro</a>
+  <a href="https://sitesign-seven.vercel.app/" class="cta-nav">Try Free</a>
+</nav>
+
+<div class="article-hero">
+  <div class="article-tag">Cash Flow</div>
+  <h1>Why Roofing Contractors Lose Money Without Documentation</h1>
+  <p class="article-meta">Published by <span>SiteSign Pro</span> &nbsp;·&nbsp; 6 min read</p>
+</div>
+
+<div class="article-body">
+  <a href="/index.html" class="back-link">← Back to home</a>
+
+  <p>Every year, roofing contractors across the country leave thousands of dollars on the table — not because their work was poor, but because they couldn't prove it was good.</p>
+
+  <p>Documentation isn't paperwork. It's money. And the contractors who treat it that way are the ones who stay in business, grow, and sleep at night.</p>
+
+  <p>Here's exactly where the money leaks out — and what you can do about it.</p>
+
+  <hr class="divider">
+
+  <h2>1. Disputed Damage Claims</h2>
+
+  <p>This is the biggest one. A homeowner or general contractor claims that damage found after your job was caused by your crew. A cracked vent. A dented gutter. A scuffed skylight frame.</p>
+
+  <p>If you have no before photos, you have no defense. Even if your crew didn't touch it, you can't prove that. So you eat the cost, redo the work, or spend weeks going back and forth — all of which costs you money.</p>
+
+  <p><strong>What it costs you:</strong> Repair bills, wasted crew time, delayed payment, and sometimes a bad review on top.</p>
+
+  <p><strong>The fix:</strong> Photo the entire site before your crew starts. Timestamped, GPS-tagged photos are your evidence. No one argues with a photo taken at 7:04 AM showing the gutter was already dented before you got there.</p>
+
+  <hr class="divider">
+
+  <h2>2. Withheld Payments on Extra Work</h2>
+
+  <p>You spotted additional damage mid-job. Your foreman made a call and the crew fixed it. It was the right thing to do. But now the customer is saying they never approved it. They're refusing to pay for the extra work, or using it as leverage to reduce the whole invoice.</p>
+
+  <p>This happens constantly in roofing — and it's almost always preventable.</p>
+
+  <p><strong>What it costs you:</strong> Hours of unpaid labor. Materials out of pocket. An invoice that gets cut by 20% with no recourse.</p>
+
+  <p><strong>The fix:</strong> Document scope changes on site, in real time. A quick note, a photo, and a sign-off from whoever is on site that day creates a paper trail that holds up.</p>
+
+  <hr class="divider">
+
+  <h2>3. Safety Incidents Without a Paper Trail</h2>
+
+  <p>If someone gets hurt on a job site — your crew, a subcontractor, even a passerby — the first question asked is: what was the site condition before work started?</p>
+
+  <p>Without a pre-shift safety check on record, you have no answer. That opens you up to liability that could go far beyond the value of the job itself.</p>
+
+  <p><strong>What it costs you:</strong> Legal fees, insurance claims, potential lawsuits. This is where small contractors can lose everything.</p>
+
+  <p><strong>The fix:</strong> A quick pre-shift safety checklist — documented, signed, and saved — shows you acted professionally and responsibly before work began. It won't prevent accidents, but it protects you when they happen.</p>
+
+  <hr class="divider">
+
+  <h2>4. Slow Payments That Kill Cash Flow</h2>
+
+  <p>Even when there's no dispute, undocumented jobs get paid slower. Why? Because the customer has questions. They can't remember exactly what was agreed. They want to check with someone before approving the invoice.</p>
+
+  <p>A job that comes with a clean PDF packet — photos, checklist, sign-off, GPS timestamp — gets processed faster. There's nothing to question. The invoice is backed by a professional record.</p>
+
+  <p><strong>What it costs you:</strong> Weeks of waiting on cash that should already be in your account. For a small contractor running tight margins, that delay is brutal.</p>
+
+  <p><strong>The fix:</strong> Send the documentation packet with the invoice. Same day. It signals professionalism, answers questions before they're asked, and speeds up approval.</p>
+
+  <hr class="divider">
+
+  <h2>5. Repeat Problems With the Same Customers</h2>
+
+  <p>If you've had a dispute with a customer before and didn't document it, you have no record of what actually happened. The next job with that same customer starts from zero. Contractors who document build a record over time. Patterns become clear. Problem customers become visible before they cost you again.</p>
+
+  <p><strong>What it costs you:</strong> Repeating the same expensive mistakes with the same people.</p>
+
+  <p><strong>The fix:</strong> Treat every job the same. Document every single one. Build a history.</p>
+
+  <hr class="divider">
+
+  <h2>The Real Cost of Not Documenting</h2>
+
+  <p>Add it up:</p>
+
+  <div class="cost-box">
+    <p>One disputed damage claim: <strong>$500 – $3,000</strong></p>
+    <p>One withheld extra-work payment: <strong>$300 – $2,000</strong></p>
+    <p>One safety incident without records: <strong>potentially unlimited</strong></p>
+    <p>Slow payments across 20 jobs a year: <strong>weeks of delayed cash flow</strong></p>
+    <p class="cost-highlight">Total annual leak: $10,000+ for most small contractors</p>
+  </div>
+
+  <p>Quietly. Without you even realizing where it's going.</p>
+
+  <div class="cta-box">
+    <h3>Stop the money leak. 90 seconds per job.</h3>
+    <p>SiteSign turns your pre-shift check into a signed, GPS-tagged PDF — before your crew picks up a single tool.</p>
+    <a href="https://sitesign-seven.vercel.app/" class="btn-primary">Try SiteSign Free</a>
+    <p class="cta-box-note">No account needed. No download. Works on any phone.</p>
+  </div>
+
+  <p><em>SiteSign is a free pre-shift documentation tool built for small roofing contractors. No account needed. No download. Just open and go.</em></p>
+</div>
+
+<footer>
+  <div class="footer-logo">Site<span>Sign</span> Pro</div>
+  <p>Built for small roofing contractors. &copy; 2026 SiteSign Pro</p>
+</footer>
+
+</body>
+</html>
